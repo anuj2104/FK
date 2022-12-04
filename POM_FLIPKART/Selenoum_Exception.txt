@@ -1,0 +1,35 @@
+Exceptoon in selenium
+-----------------------------------------
+
+org.openqa.selenium.
+NoSuchElementException:
+ no such element:
+ Unable to locate element: 
+{"method":"xpath","selector":"//input[@class='_2zrpKA _3v41xv']"}
+
+-------------------------------------------------------------------------
+
+org.openqa.selenium.
+WebDriverException:
+ unknown error:
+ Element <a href="/account/login?ret=/">...</a>
+ is not clickable at point (976, 28).
+ Other element would receive the click:
+ <div class="_2ISNhP _3AOFWO" tabindex="-1">...</div>
+
+--------------------------------------------------------------------------
+
+org.openqa.selenium.
+NoSuchElementException: 
+no such element: 
+Unable to locate element:
+ {"method":"xpath","selector":"//input[@class='_2zrpKA']"}
+
+----------------------------------------------------------------------------
+
+FAILED: loginpageTitleTest
+java.lang.AssertionError:
+ expected
+ [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. ]
+ but found
+ [www.flipkart.com]
